@@ -1,7 +1,7 @@
 JSDoctor
 ========
 
-![JSDoctor](https://github.com/yashag/jsdoctor/raw/master/assets/images/JSDoctor - main.png "JSDoctor")
+![JSDoctor](https://raw.githubusercontent.com/yashag/jsdoctor/master/assets/images/JSDoctor%20-%20main.png "JSDoctor")
 
 <p align="center">
   <img alt="jsdoctor" src="https://raw.githubusercontent.com/isaacs/node-glob/master/assets/images/JSDoctor - main.png" width="500">
@@ -217,12 +217,12 @@ set X(x) {
 
 ## Bugs
 
-Please look at the [CONTRIBUTING.md](https://github.com/yashag/jsdoctor/master/CONTRIBUTING.md) **Issues** section and if you are certain the package has a bug or something of the sort, please file it here https://github.com/yashag/jsdoctor/issues
+Please look at the [CONTRIBUTING.md](https://github.com/yashag/jsdoctor/blob/master/CONTRIBUTING.md) **Issues** section and if you are certain the package has a bug or something of the sort, please file it here https://github.com/yashag/jsdoctor/issues
 
 ## Contributing
 
 All contributions are very welcome and encouraged!
-Please look at the [CONTRIBUTING.md](https://github.com/yashag/jsdoctor/master/CONTRIBUTING.md)
+Please look at the [CONTRIBUTING.md](https://github.com/yashag/jsdoctor/blob/master/CONTRIBUTING.md)
 
 ## TODO
 
