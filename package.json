@@ -1,0 +1,64 @@
+{
+  "name": "jsdoctor",
+  "version": "1.0.0",
+  "description": "A smart jsdoc documentation generator",
+  "main": "index.js",
+  "bin": {
+    "jsdoctor": "./bin/jsdoctor.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rimraf out eslint-report.html",
+    "lint": "eslint -f html lib/ bin/ test/**.spec.js > eslint-report.html",
+    "test": "mocha --reporter spec",
+    "generate:jsdoc": "jsdoc lib/ -r -p",
+    "generate:test-jsdoc": "jsdoc test/files/result -p"
+  },
+  "keywords": [
+    "jsdoc",
+    "document",
+    "documentation",
+    "annotation",
+    "tag",
+    "descriptor",
+    "analysis",
+    "watch",
+    "comment",
+    "generate",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yashag/jsdoctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yashag/jsdoctor/issues"
+  },
+  "author": "Yasha Gootkin (https://github.com/yashag)",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "commander": "^2.11.0",
+    "esprima": "^4.0.0",
+    "fast-glob": "^1.0.1",
+    "gaze": "^1.1.2",
+    "indent-string": "^3.2.0",
+    "texting": "^1.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "chai-fs": "^1.0.0",
+    "cpx": "^1.5.0",
+    "eslint": "^4.8.0",
+    "jsdoc-x": "^2.0.0",
+    "mocha": "^3.5.0",
+    "rimraf": "^2.6.2"
+  },
+  "optionalDependencies": {
+    "jsdoc": "^3.5.5"
+  },
+  "engines": {
+    "node": ">= 8.0"
+  },
+  "license": "MIT"
+}
