@@ -1,10 +1,8 @@
 JSDoctor
 ========
 
-![JSDoctor](https://raw.githubusercontent.com/yashag/jsdoctor/master/assets/images/JSDoctor%20-%20main.png)
-
 <p align="center">
-  <img alt="jsdoctor" src="https://raw.githubusercontent.com/isaacs/node-glob/master/assets/images/JSDoctor - main.png" width="400">
+  <img alt="jsdoctor" src="https://raw.githubusercontent.com/yashag/jsdoctor/master/assets/images/JSDoctor%20-%20main.png" width="500">
 </p>
 
 <p align="center">
